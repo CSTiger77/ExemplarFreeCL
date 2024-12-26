@@ -40,3 +40,17 @@ Run ERA-EFCL's Experiments: python ERA_DFCL_main.py
 Run FOSTER-EFCL's Experiments: python foster_main.py
 
 others: python ABD_main.py; python RDFCL_main.py, ...
+
+Acknowledge: Code is based on the sourde codes of 
+
+FOSTER (https://github.com/G-U-N/ECCV22-FOSTER), 
+
+ABD (https://github.com/GT-RIPL/AlwaysBeDreaming-DFCIL), 
+
+R-DFCIL (https://github.com/jianzhangcs/R-DFCIL), 
+
+FeTrIL (https://github.com/GregoirePetit/FeTrIL.), 
+
+FeCAM (https://github.com/dipamgoswami/FeCAM),
+
+NAPAVQ (https://github.com/TamashaM/NAPA-VQ.git).
