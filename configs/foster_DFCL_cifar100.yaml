@@ -1,6 +1,6 @@
 
 NAME: ''
-OUTPUT_DIR: './output/FOSTER-DFCL/cifar100/ResNet32/Base0/task5/0.95-0.97/test1'
+OUTPUT_DIR: './output/FOSTER-DFCL/cifar100/ResNet32/Base0/task5/0.96-0.96/test1'
 SHOW_STEP: 50
 SAVE_STEP: 100
 VALID_STEP: 25
@@ -60,7 +60,7 @@ generator:
 #----- model -----
 model:
   T: 2.
-  beta: 0.97
+  beta: 0.96
 
   TRAIN:
     BATCH_SIZE: 128
@@ -93,7 +93,6 @@ model:
     WEIGHT_DECAY: 2e-4
     # ----- LR_SCHEDULER -----
     LR_TYPE: "multistep"
-
     LR_STEP: [ 30, 50 ]
     LR_FACTOR: 0.1
     WARM_EPOCH: 5
@@ -102,7 +101,7 @@ model:
 #----- FCTM -----
 FCTM:
   T: 2.
-  beta: 0.95
+  beta: 0.96
 
   use_FCN: False
   FCN:
