@@ -8,7 +8,7 @@ chmod +x Anaconda3-2024.06-1-Linux-x86_64.sh
 
 ./Anaconda3-2024.06-1-Linux-x86_64.sh
 
-conda create -n kcli python=3.9
+conda create -n xxx python=3.9
 
 pytorch:
 
